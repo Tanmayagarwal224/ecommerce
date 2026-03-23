@@ -28,7 +28,7 @@ app.use('/api/v1/products',productRoutes)
 //rest api
 app.get('/',(req,res)=>{
     res.send({
-        message:"welcome to ecommerce website"
+        message:"welcome to ecommerce clothes website"
     })
 })
 
